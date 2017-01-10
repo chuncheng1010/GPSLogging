@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 8
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "main.gpslogging"
+        minSdkVersion 8
+        targetSdkVersion 8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/apache-mime4j-0.6.jar')
+    compile files('libs/httpmime-4.1.1.jar')
+    compile files('libs/opencsv-2.3.jar')
+}

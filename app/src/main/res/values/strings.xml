@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPSLogging</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="mainTitle">気象災害対応システム</string>
+    <string name="returnLabel">巡回</string>
+    <string name="uploadStatusText">アップロード</string>
+    <string name="errorStatusText">エラー</string>
+    <string name="sendingStatusText">送信</string>
+    <string name="photoListTitleText">&lt; 気象災害対応システム           送信</string>
+    <string name="selectAllText">すべて選択</string>
+    <string name="settingTitleText">&lt; 気象災害対応システム           設定</string>
+    <string name="returnSettingLabel">巡回設定</string>
+    <string name="sendServerUrl">転送サ-バのURL(https)</string>
+    <string name="sendInterval">転送間隔</string>
+    <string name="second">秒</string>
+    <string name="sendSetting">送信設定</string>
+    <string name="label6">転送サ-バのURL(https)</string>
+    <string name="resizeLabel">転送サイズ</string>
+    <string name="emptyString">  </string>
+    <string name="photoTextLabel">写真</string>
+    <string name="unselectAllText">Unselect All</string>
+
+</resources>

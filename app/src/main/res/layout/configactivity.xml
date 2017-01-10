@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:orientation="vertical" 
+         android:background="#666" >
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="48dp"
+             android:background="#0072bc" >
+
+             <RelativeLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent" >
+                 
+                 <TextView
+                     android:id="@+id/configTitleText"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="14dp"
+                     android:text="Medium Text"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="#fff" />
+
+             </RelativeLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="35dp" >
+
+             <RelativeLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent" >
+
+                 <TextView
+                     android:id="@+id/configReturnLabel"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="25dp"
+                     android:text="Return"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="#fff" />
+
+             </RelativeLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="35dp" >
+
+             <RelativeLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent" >
+                 <TextView
+                     android:id="@+id/sendServerUrlLabel"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="26dp"
+                     android:text="Start"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="#fff" />
+
+             </RelativeLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="48dp" >
+
+             <RelativeLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent" >
+                 <EditText
+                     android:id="@+id/logServerUrlText"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="false"
+                     android:layout_alignParentTop="false"
+                     android:layout_centerHorizontal="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="15dp"
+                     android:layout_marginRight="15dp"
+                     android:ems="10"
+                     android:lines="1"
+                     android:singleLine="true" >
+
+                     <requestFocus />
+                 </EditText>
+             </RelativeLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="48dp" >
+
+             <RelativeLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent" >                 
+                 <TextView
+                     android:id="@+id/intervalLabel"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="22dp"
+                     android:text="Medium Text"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="#fff" />
+                 
+                 <EditText
+                     android:id="@+id/intervalTextValue"
+                     android:layout_width="50dp"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentTop="true"
+                     android:layout_marginLeft="28dp"
+                     android:layout_toRightOf="@+id/intervalLabel"
+                     android:ems="10"
+                     android:inputType="number" />
+
+             </RelativeLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="35dp" >
+             <RelativeLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent" >
+                 <TextView
+                     android:id="@+id/configSendLabel"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="25dp"
+                     android:text="Return"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="#fff" />
+
+             </RelativeLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="35dp" >
+
+             <RelativeLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent" >
+                 <TextView
+                     android:id="@+id/sendServerUrlLabel1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="26dp"
+                     android:text="Start"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="#fff" />
+
+             </RelativeLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="48dp" >
+
+             <RelativeLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent" >
+                 <EditText
+                     android:id="@+id/photoServerUrlText"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="false"
+                     android:layout_alignParentTop="false"
+                     android:layout_centerHorizontal="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="15dp"
+                     android:layout_marginRight="15dp"
+                     android:ems="10"
+                     android:lines="1"
+                     android:singleLine="true" />
+
+             </RelativeLayout>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="48dp" >
+
+             <RelativeLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent" >
+                 <TextView
+                     android:id="@+id/configResizeLabel"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentLeft="true"
+                     android:layout_centerVertical="true"
+                     android:layout_marginLeft="22dp"
+                     android:text="Medium Text"
+                     android:textAppearance="?android:attr/textAppearanceMedium"
+                     android:textColor="#fff" />
+                 <Spinner
+                     android:id="@+id/resizeCombo"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentTop="true"
+                     android:layout_marginLeft="24dp"
+                     android:layout_marginRight="15dp"
+                     android:layout_toRightOf="@+id/configResizeLabel" />
+
+             </RelativeLayout>
+         </LinearLayout>
+
+     </LinearLayout>
+	
+</RelativeLayout>
